@@ -1,0 +1,17 @@
+# Node / build artifacts
+node_modules
+.DS_Store
+dist
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.local
+
+# Ignore binary Word documents to prevent PR upload errors
+*.docx
+*.docm
+~$*.docx
